@@ -1,7 +1,7 @@
 resource "aws_instance" "rukshan1" {
-  ami = "ami-cb076fb4"
+  ami = "ami-0782e9ee97725263d"
   instance_type = "t2.micro"
-  key_name = "RukshanPCS"
+  key_name = "fullstackkey"
 
   tags {
     Name = "rukshanDemo"
